@@ -1,0 +1,301 @@
+/* Gaya tambahan untuk elemen-elemen di halaman Anda */
+
+/* Styling untuk tautan di menu navigasi */
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Warna teks untuk tautan */
+}
+
+/* Gaya untuk tabel donatur */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Gaya untuk tautan "CUACA" */
+a[href="cuaca.html"] {
+  text-decoration: none;
+  color: #1d70de; /* Warna teks untuk tautan */
+}
+
+/* Gaya untuk iframe video YouTube */
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Gaya untuk daftar kontak */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Gaya untuk bagian "Tentang Kami" */
+#tentangkami {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/* Gaya untuk footer */
+footer {
+  background-color: #1d70de;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 200px;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
+
+#cuacalink {
+  text-align: left;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+#tentangkami {
+  text-align: center;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/* Gaya untuk menu navigasi */
+nav {
+  background-color: #ffffff; /* Warna latar belakang menu navigasi */
+  color: #333; /* Warna teks menu navigasi */
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  color: #333; /* Warna teks tautan */
+  font-weight: bold; /* Membuat teks tautan menjadi tebal */
+  padding: 5px 10px; /* Ruang bantal di sekitar teks tautan */
+  border: 1px solid #ccc; /* Garis tepi untuk tautan */
+  border-radius: 5px; /* Sudut bundar untuk tautan */
+  transition: background-color 0.3s ease; /* Transisi perubahan warna latar belakang saat menghover tautan */
+}
+
+nav a:hover {
+  background-color: #1d70de; /* Warna latar belakang saat menghover tautan */
+  color: #fff; /* Warna teks saat menghover tautan */
+}
+
+#tes {
+  text-align: center;
+  font-size: 14px;
+}
+
+body {
+  font-family: "Tangerine", serif;
+  background-color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#nav_bar {
+  margin-bottom: 0px;
+  padding: 0;
+  background-color: white;
+  border: none;
+}
+
+.weather {
+  color: #4aa1f3 !important;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#nav_list > li > a {
+  color: #4aa1f3 !important;
+  font-weight: 500;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 8px;
+  display: inline-block;
+  margin-top: -15px;
+}
+
+#headRow {
+  background: url(Images/bg.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#colHeadText1 {
+  color: white;
+  padding-top: 30px;
+  font-size: 45px;
+}
+
+#colHeadText2 {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+ul#list_item {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+#cityDiv {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  height: 40px;
+  font-size: 20px;
+}
+
+#submitCity {
+  height: 40px;
+  font-weight: bold;
+}
+
+#errorCity {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  background-color: #4aa1f3;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  bottom: 0;
+}
+
+#showWeather {
+  width: 60%;
+  margin: auto;
+  background-color: #4aa1f3;
+  color: white;
+  border-radius: 25px;
+}
+
+table {
+  color: #333333;
+  font-family: Helvetical, Arial, sans-serif;
+}
+
+th {
+  background: #4aa1f3;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+td {
+  background: #fafafa;
+  text-align: center;
+  font-size: 18px;
+}
+
+#welcome-paragraph {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 12px 25px 40px 25px;
+  letter-spacing: 0.5px;
+}
+
+#rowDiv {
+  margin: auto;
+  width: 100%;
+}
+
+#colDesc h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#colDesc {
+  border: 1px solid #e7e7e7;
+  margin: 0 auto;
+  height: auto;
+}
+
+.info-icon {
+  text-align: center;
+}
+
+.info-icon i {
+  font-size: 60px;
+  margin-top: 10px;
+  color: #4aa1f3;
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
